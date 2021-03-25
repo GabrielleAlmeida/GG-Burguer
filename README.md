@@ -142,7 +142,7 @@ Um breve tutorial de como rodar o **Sistema GG Burguer** localmente.
 
 - Primeiramente, você deve clonar este repositório utilizando o seguite comando:
 ```sh
-  git clone https://github.com/gabriella-guimaraes/SAP005-burger-queen.git
+  git clone https://github.com/GabrielleAlmeida/GG-Burguer.git
   ```
 - Após isso, instale as dependências do projeto:
  ```sh
