@@ -45,7 +45,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - Clone este repositório
 
 
-`$ git clone <https://github.com/GabrielleAlmeida/GG-Burguer.git>`
+`$ git clone https://github.com/GabrielleAlmeida/GG-Burguer.git`
 
 - Instale as dependências
 
