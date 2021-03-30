@@ -1,130 +1,83 @@
 # Burger Queen
 
+![Design sem nome (1)](https://user-images.githubusercontent.com/72045126/112914292-fd780d00-90d1-11eb-91f1-80e6d9e17cd2.png)
+
+🌟 A **GG Burguer** é uma interface que visa  garantir maior flexibilidade e autonomia no fluxo de trabalho dos funcionários da Hamburgueria.
+Para acessar a rede clique [aqui](https://sap-005-burger-queen-gabriella-guimaraes.vercel.app/). 🌟
+
+---
 ## Índice
 
-- [1. Introdução](#1-introdução)
-- [2. Desafio](#2-desafio)
-- [3. Desenvolvimento](#3-desenvolvimento)
-- [3.1 Prótotipos](#3.1-protótipos)
-- [3.2 Histórias de Usuários](#3.2-histórias-de-usuários)
-- [3.3 Ferramentas e Tecnologias](#3.2-ferramentas-e-tecnologias)
-- [4. Primeiros passos](#4-primeiros-passos)
-- [5. Equipe de Desenvolvedoras](#5-equipe-de-desenvolvedoras)
+<p>
+ <a href="#sobre">Sobre</a> •
+ <a href="#desafio">Desafio</a> •
+ <a href="#instalação">Instalação</a> •
+ <a href="#processo-de-desenvolvimento">Processo de desenvolvimento</a> •
+ <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a> • 
+ <a href="#features">Features</a>
+ <a href="#créditos">Créditos</a>
+</p>
 
 
 ---
 
-## 1. Introdução
+## Sobre
 
-A **GG Burguer** é uma interface que visa  garantir maior flexibilidade e autonomia no fluxo de trabalho dos funcionários da Hamburgueria.
-Com o auxílio de um tablet é possível acessar o sistema, registrar a escolha do cliente e direcionar o pedido para a cozinha que receberá a nova demanda. Além disso, o Chef consegue alterar o status do pedido e assim sinalizar para o atendente que o mesmo está  pronto para ser entregue. 
+Com o auxílio de um tablet é possível acessar o sistema **GG Burguer**, registrar a escolha do cliente e direcionar o pedido para a cozinha que receberá a nova demanda. Além disso, o Chef de cozinha consegue alterar o status do pedido e assim sinalizar para o atendente que o mesmo está  pronto para ser entregue ao cliente. 
 A plataforma também armazena as informações de todo o fluxo de trabalho, como a descrição do pedido e seu tempo de preparo.
-
-<b> *Acesse a interface [Aqui](https://sap-005-burger-queen-gabriella-guimaraes.vercel.app/)
 
 ![Hnet-image (5)](https://user-images.githubusercontent.com/71671440/111884306-922a8e80-899f-11eb-87c0-73e97925423c.gif)
 
-## 2. Desafio
+---
+
+## Desafio
 
 A GG Burguer é uma empresa reconhecida por oferecer um atendimento de excelência, por isso é prioritário garantir que  os processos ocorram de forma dinâmica. Considerando que a GG Burguer ampliou seu tempo de atendimento para 24 horas e a demanda de clientes aumentou. 
 Visto isso, a equipe junto com a Product Owner desenvolvemos uma  interface que oferece funcionalidades que proporciona experiência de trabalho mais ágil e dinâmica aos envolvidos.
 **O sistema GG Burguer** permite que os atendentes registem a escolha do cliente e envie o mesmo para a cozinha onde o Chef visualizará a nova demanda.
 
+---
+## Instalação
 
-## 3. Desenvolvimento
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [React](https://pt-br.reactjs.org/), [MATERIAL-UI](https://material-ui.com/), para o Deploy utilizamos [Vercel](https://vercel.com/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-### 3.1 Protótipos
+- Clone este repositório
 
 
-Durante o brainstorming de elaboração de skecthes da interface do sistema decidimos tomar como base PDVs (Ponto de Venda, também conhecido como Frente de Caixa) para garantir uma melhor usabilidade e experiência ao usuário.
+`$ git clone <https://github.com/GabrielleAlmeida/GG-Burguer.git>`
 
-![gg-burguer-prototipo](https://user-images.githubusercontent.com/71671440/111832842-0b5ab080-88d0-11eb-96e0-b2dbb6e84946.jpg)
+- Instale as dependências
 
-### 3.2 Histórias de Usuários
 
-A equipe trabalhou utilizando metodologia Scrum desenvolvendo uma história de usuário por sprint com foco na entrega de valor ao usuário. 
+`$ npm install`
 
-#### [História de usuário 1] Usuário deve ter seu perfil (login/senha) para acessar o sistema.
+- Execute a aplicação em modo de desenvolvimento
 
-Eu como funcionário do restaurante quero entrar na plataforma e ver apenas a tela importante para o meu trabalho.
 
-##### Critérios de aceitação
+`$ npm start`
 
-O que deve acontecer para satisfazer as necessidades do usuário?
-
-- Criar login e senha.
-- Registar tipo de usuário (cozinha / salão), login e senha.
-- Entrar na tela correta para cada usuário.
-
-##### Definição de pronto
-
-O acordado abaixo deve acontecer para dizer que a história está terminada:
-
-- Você fez _testes_ de usabilidade e incorporou o feedback do usuário.
-- Você deu deploy de seu aplicativo.
 
 ---
 
-#### [História de usuário 2] Garçom/Garçonete deve poder anotar o seu pedido
+## Processo de desenvolvimento
 
-Eu como garçom/garçonete quero poder anotar o meu pedido saber o valor de cada
-produto e poder enviar o pedido para a cozinha para ser preparado.
 
-##### Critérios de aceitação
+**Protótipos**
 
-O que deve acontecer para satisfazer as necessidades do usuário?
+Durante o brainstorming de elaboração de skecthes da interface do sistema decidimos tomar como base [PDVs](https://pt.wikipedia.org/wiki/POS)(Ponto de Venda, também conhecido como Frente de Caixa) para garantir uma melhor usabilidade e experiência ao usuário.
 
-- Anotar o nome e mesa.
-- Adicionar produtos aos pedidos.
-- Excluir produtos.
-- Ver resumo e o total da compra.
-- Enviar o pedido para a cozinha (guardar em algum banco de dados).
-- Funcionar bem e se adequar a um _tablet_.
+Para desenvolver o **sistema GG Burguer** trabalhamos utilizando metodologia Scrum desenvolvendo uma história de usuário por sprint com foco na entrega de valor ao usuário. 
 
-##### Definição de pronto
+O planejamento e a organização do projeto foram desenvolvidos utilizando o método Kanban e a estratégia de programação foi a revisão de código e [pair programing](https://www.devmedia.com.br/implementando-pair-programming-em-sua-equipe/1694).📋
 
-O acordado abaixo deve acontecer para dizer que a história está terminada:
+![Design sem nome (2)](https://user-images.githubusercontent.com/72045126/112918058-695e7380-90da-11eb-84b4-89c8b58fea05.png)
+![Versão final](https://user-images.githubusercontent.com/72045126/112919017-957af400-90dc-11eb-9838-910c950188c0.png)
 
-- Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
-- Você deu deploy de seu aplicativo.
 
 ---
 
-#### [História de usuário 3] Chefe de cozinha deve ver os pedidos
-
-Eu como chefe de cozinha quero ver os pedidos dos clientes em ordem, poder marcar que estão prontos e poder notificar os garçons/garçonetes que o pedido está pronto para ser entregue ao cliente.
-
-##### Critérios de aceitação
-
-- Ver os pedidos à medida em que são feitos.
-- Marcar os pedidos que foram preparados e estão prontos para serem servidos.
-- Ver o tempo que levou para preparar o pedido desde que chegou, até ser marcado como concluído.
-
-##### Definição de pronto
-
-- Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
-- Você deu deploy de seu aplicativo.
-
----
-
-#### [História de usuário 4] Garçom/Garçonete deve ver os pedidos prontos para servir
-
-Eu como garçom/garçonete quero ver os pedidos que estão prontos para entregá-los rapidamente aos clientes.
-
-##### Critérios de aceitação
-
-- Ver a lista de pedidos prontos para servir.
-- Marque os pedidos que foram entregues.
-
-##### Definição de pronto
-
-- Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário.
-- Você deu deploy de seu aplicativo.
-- Os dados devem ser mantidos intactos, mesmo depois que um pedido foi terminado. Tudo isso para poder ter estatísticas no futuro.
-
----
-
-### 3.3 Ferramentas e Tecnologias
+## Tecnologias utilizadas
 
 Para desenvolver o sistema GG Burguer  utilizamos: 
 - <img alt="Trello" src="https://img.shields.io/badge/Trello%20-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white"/>
@@ -136,29 +89,45 @@ Para desenvolver o sistema GG Burguer  utilizamos:
 - <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 - <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 - <img alt="Adobe Illustrator" src="https://img.shields.io/badge/adobe%20illustrator%20-%23FF9A00.svg?&style=for-the-badge&logo=adobe%20illustrator&logoColor=white"/> (criação de logos e protótipos de alta fidelidade)
-## 4. Primeiros passos
 
-Um breve tutorial de como rodar o **Sistema GG Burguer** localmente.
+---
 
-- Primeiramente, você deve clonar este repositório utilizando o seguite comando:
-```sh
-  git clone https://github.com/GabrielleAlmeida/GG-Burguer.git
-  ```
-- Após isso, instale as dependências do projeto:
- ```sh
-  npm install
-  ```
-- Por fim, para visualizar a interface na web use o seguinte comando:
-```sh
-  npm start
-  ```  
+## Features 
+
+- [x] Fazer Login 
+- [x] Cadastro de um novo usuário e especificar sua área de atendimento (cozinha / salão)
+- [x] Cada usuário é dirigido a tela correspondente de atuação.
+- [x] Realizar o pedido com as informações necessárias: Nome do cliente e número da mesa
+- [x] Adicionar produtos aos pedidos
+- [x] Excluir produtos
+- [x] Ver resumo e o total da compra.
+- [x] Enviar o pedido para a cozinha (guardar em algum banco de dados)
+- [x] Ver os pedidos à medida em que são feitos e marcar quando preparados
+- [x] Ver o tempo que levou para preparar o pedido desde que chegou, até ser marcado como concluído
+- [x] Fazer *testes de usabilidade* e incorporou o feedback do usuário
+- [x] Funcionar bem e se adequar a um tablet
+- [ ] Fazer *tests* unitários
+- [ ] Incorporar novas *tratativas de erros*
+
+---
+
+**Status do Projeto**
+<h4 align="center"> 
+	🚧  GG Burguer 🚀 Em construção...  🚧
+</h4>
 
 
-## 5. Equipe de Desenvolvedoras
+---
+## Créditos
 
 Para saber mais sobre as desenvolvedoras acesse:
 
-**Gabriella Guimarães:** https://www.linkedin.com/in/gabriella-guimaraes/
+&nbsp;
+🦸 [Gabriella Guimarães](https://www.linkedin.com/in/gabriella-guimaraes/)
 
-**Gabrielle Almeiada:** https://www.linkedin.com/in/gabrielle-antunes-almeida/ 
+&nbsp;
+🦸 [Gabrielle Almeiada](https://www.linkedin.com/in/gabrielle-antunes-almeida/)
 
+&nbsp;
+
+*Projeto desenvolvido em [Laboratoria](https://www.laboratoria.la/) durante o Bootcamp 💛*
