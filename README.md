@@ -123,9 +123,7 @@ Para desenvolver o sistema GG Burguer  utilizamos:
 ---
 ## Créditos
 
-<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-Para saber mais sobre as desenvolvedoras acesse:
+**Para saber mais sobre as desenvolvedoras acesse:**
 &nbsp;
 
 &nbsp;
