@@ -62,8 +62,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## Processo de desenvolvimento
 
-
-**Protótipos**
+**Planejamento e a organização**
 
 Durante o brainstorming de elaboração de [sketches](https://pt.wikipedia.org/wiki/Esbo%C3%A7o) da interface do sistema decidimos tomar como base [PDVs](https://pt.wikipedia.org/wiki/POS) (Ponto de Venda, também conhecido como Frente de Caixa) para garantir uma melhor usabilidade e experiência ao usuário.📋
 
