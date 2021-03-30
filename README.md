@@ -14,7 +14,7 @@ Para acessar a rede clique [aqui](https://sap-005-burger-queen-gabriella-guimara
  <a href="#instalação">Instalação</a> •
  <a href="#processo-de-desenvolvimento">Processo de desenvolvimento</a> •
  <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a> • 
- <a href="#features">Features</a>
+ <a href="#features">Features</a> • 
  <a href="#créditos">Créditos</a>
 </p>
 
@@ -65,11 +65,11 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 **Protótipos**
 
-Durante o brainstorming de elaboração de skecthes da interface do sistema decidimos tomar como base [PDVs](https://pt.wikipedia.org/wiki/POS)(Ponto de Venda, também conhecido como Frente de Caixa) para garantir uma melhor usabilidade e experiência ao usuário.
+Durante o brainstorming de elaboração de [sketches](https://pt.wikipedia.org/wiki/Esbo%C3%A7o)da interface do sistema decidimos tomar como base [PDVs](https://pt.wikipedia.org/wiki/POS)(Ponto de Venda, também conhecido como Frente de Caixa) para garantir uma melhor usabilidade e experiência ao usuário.📋
 
 Para desenvolver o **sistema GG Burguer** trabalhamos utilizando metodologia Scrum desenvolvendo uma história de usuário por sprint com foco na entrega de valor ao usuário. 
 
-O planejamento e a organização do projeto foram desenvolvidos utilizando o método Kanban e a estratégia de programação foi a revisão de código e [pair programing](https://www.devmedia.com.br/implementando-pair-programming-em-sua-equipe/1694).📋
+O planejamento e a organização do projeto foram desenvolvidos utilizando o método Kanban e a estratégia de programação foi a revisão de código e [pair programing](https://www.devmedia.com.br/implementando-pair-programming-em-sua-equipe/1694). 👩‍💻  👩‍💻 
 
 ![Design sem nome (2)](https://user-images.githubusercontent.com/72045126/112918058-695e7380-90da-11eb-84b4-89c8b58fea05.png)
 ![Versão final](https://user-images.githubusercontent.com/72045126/112919017-957af400-90dc-11eb-9838-910c950188c0.png)
