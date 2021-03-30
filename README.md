@@ -115,7 +115,7 @@ Para desenvolver o sistema GG Burguer  utilizamos:
 
 
 <h4 align="center"> 
-	**Status do Projeto**
+	Status do Projeto
 	
 	🚧  GG Burguer 🚀 Em construção...  🚧
 </h4>
